@@ -1,0 +1,29 @@
+<代数演算子>
+Javaで使用する代数演算子には以下の種類があります。
+
+演算子	使い方	 意味
+  +	   a + b	 加算
+  -	   a - b	 減算
+  *	   a * b	 乗算
+  /	   a / b	 除算
+  %	   a % b	 剰余
+
+  [replit]
+  class Main {
+    public static void main(String[] args) {
+        System.out.println(1000 + 2000);
+        System.out.println(3000 - 1500);
+        System.out.println(50 * 40);
+        System.out.println(600 / 15);
+        System.out.println(5 % 2);
+    }
+  }
+
+  ・上記のコードを実装すると、
+  3000
+  1500
+  2000
+  40
+  1
+
+  という結果が表示される。
