@@ -5,3 +5,39 @@
 
 要素を増やす場合は、サイズの大きな配列を新たに作成して元データをコピーするか、ArrayListというリストの一種を使用します。
 ArrayListは要素の数を変更できる配列のようなもので、ウェブアプリケーション開発ではよく使用されます。
+
+[replit]
+
+class Main {
+  public static void main(String[] args) {
+    int[] scores;
+    scores = new int[3];
+
+    scores[0] = 1;
+    scores[1] = 5;
+    scores[2] = 10;
+
+    System.out.println(scores[0]);
+    System.out.println(scores[1]);
+    System.out.println(scores[2]);
+  }
+}
+
+コードを実行すると、
+1
+5
+10
+
+と表示される。
+Rubyの場合と比べて、コードの記述量が多くなっています。
+いま記述したコードを参照しながら、配列の使い方を確認していきましょう。
+
+
+<配列の使い方>
+Javaで配列を使用する際は、以下の手順が必要です。
+
+① 配列の宣言を行う
+② 配列の要素を作成し、配列に代入する
+③ 配列の要素に値を代入する
+
+それぞれの意味を確認しましょう。
